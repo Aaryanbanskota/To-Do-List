@@ -3,8 +3,7 @@
 
 ---
 
-## 🌐 [🚀 Click Here to View Live App 🔗](#)  
-_(Replace `#` with your actual live link)_
+## 🌐 [🚀 Click Here to View Live App 🔗](https://aaryanbanskota.github.io/To-Do-List/)  
 
 ---
 
