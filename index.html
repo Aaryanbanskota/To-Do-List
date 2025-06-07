@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Sticky Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Smart Sticky Task Manager</h1>
+
+  <button id="addTaskBtn">+ Add Task</button>
+  <div id="tasksContainer" class="notes-container"></div>
+
+  <!-- Add Task Modal -->
+  <div id="addModal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Add New Task</h2>
+      <label>
+        Title:<br />
+        <input type="text" id="addTitle" />
+      </label>
+      <label>
+        Description:<br />
+        <textarea id="addDesc"></textarea>
+      </label>
+      <label>
+        Due Date & Time:<br />
+        <input type="datetime-local" id="addDue" />
+      </label>
+      <label>
+        Attach Image:<br />
+        <input type="file" id="addImage" accept="image/*" />
+      </label>
+      <button id="recordVoiceBtn">🎤 Record Voice</button>
+      <button id="saveAddBtn">Add Task</button>
+      <button id="cancelAddBtn">Cancel</button>
+    </div>
+  </div>
+
+  <!-- Edit Task Modal -->
+  <div id="editModal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Edit Task</h2>
+      <label>
+        Title:<br />
+        <input type="text" id="editTitle" />
+      </label>
+      <label>
+        Description:<br />
+        <textarea id="editDesc"></textarea>
+      </label>
+      <label>
+        Due Date & Time:<br />
+        <input type="datetime-local" id="editDue" />
+      </label>
+      <label>
+        Attach Image:<br />
+        <input type="file" id="editImage" accept="image/*" />
+      </label>
+      <button id="recordEditVoiceBtn">🎤 Record Voice</button>
+      <button id="saveEditBtn">Save</button>
+      <button id="cancelEditBtn">Cancel</button>
+    </div>
+  </div>
+
+  <!-- Image preview modal -->
+  <div id="imagePreviewModal" class="modal hidden">
+    <div class="modal-content image-preview-content">
+      <img id="imagePreview" src="" alt="Full Image" />
+      <button id="closeImagePreviewBtn">Close</button>
+    </div>
+  </div>
+
+  <!-- Voice record modal -->
+  <div id="voiceRecordModal" class="modal hidden">
+    <div class="modal-content voice-record-content">
+      <h3>Voice Recorder</h3>
+      <button id="startRecordingBtn">Start Recording</button>
+      <button id="stopRecordingBtn" disabled>Stop Recording</button>
+      <audio id="audioPlayback" controls class="hidden"></audio>
+      <button id="saveVoiceBtn" disabled>Save</button>
+      <button id="cancelVoiceBtn">Cancel</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
