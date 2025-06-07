@@ -1,34 +1,46 @@
-✅ To-Do List App – Smart Task Manager ✨
-🎯 Your personal productivity buddy – now with voice, image & notifications!
+# ✅ To-Do List App – Your Smart Productivity Buddy ✨  
+🎯 _Stay on top of your day — with voice, image & smart reminders!_
 
-🛠️ Features
-📝 Add tasks quickly and easily
+---
 
-🖼️ Attach images to your to-do items
+## 🌐 [🚀 Click Here to View Live App 🔗](#)  
+_(Replace `#` with your actual live link)_
 
-🎙️ Record and attach voice notes
+---
 
-🔔 Get notifications to stay on track
+<details>
+<summary>📋 More Details</summary>
 
-💡 Clean and user-friendly interface
+---
 
-🚀 Lightweight and fast performance
+## 🚀 **What Makes It Awesome?**
 
-⚠️ Current Limitation
-❗ The app is currently not connected to any server.
-That means no cloud sync or backup – everything stays local for now.
-(Server integration coming soon!)
+✨ **Add tasks effortlessly** – Just tap and go!  
+🖼️ **Attach images** – Visual context at your fingertips  
+🎙️ **Voice notes** – Say it instead of typing it!  
+🔔 **Smart notifications** – Never forget what matters  
+🧠 **Sleek & intuitive design** – Productivity made beautiful  
+⚡ **Fast & lightweight** – No clutter, no lag  
 
-🌐 👉 Click Here to View Live 👈
-(Replace # with your actual live project link)
+---
 
-💭 Future Plans
-☁️ Add cloud sync & login system
+## ⚠️ **Heads-Up!**  
+❌ _Currently not connected to a server_  
+🔒 All data is saved locally on your device  
+☁️ **Cloud sync and backup coming soon!**
 
-🧠 Smarter reminders & task suggestions
+---
 
-🎨 Custom themes & personalization
+## 🌱 **What’s Coming Next?**
 
-📊 Progress tracking & analytics
+🛠️ Cloud sync + user accounts  
+🧠 AI-powered suggestions & smart planning  
+🎨 Color themes, custom categories & personalization  
+📈 Visual task progress, stats & insights  
 
-👨‍💻 Made with ❤️ by Aaryan Banskota
+---
+
+## 🙌 **Created with love by**  
+### 👨‍💻 **Aaryan Banskota** ❤️
+
+</details>
